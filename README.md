@@ -1,5 +1,4 @@
-# yolo-attnopt
-
+# YOLO Attention Optimized
 
 **YOLO-AttnOpt** focuses on optimizing self-attention mechanisms in YOLO for **extreme memory efficiency** without compromising **runtime performance**.
 It introduces lightweight attention modules and tensor optimization strategies that significantly reduce the memory footprint during both training and inference.
