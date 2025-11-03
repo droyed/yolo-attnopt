@@ -11,8 +11,8 @@ The result is a **patched YOLO environment** tailored for **resource-constrained
 ```python
 
 ## Setup patched yolo environment
-from attention_optimization import setup_optimized_yolo_environ
-setup_optimized_yolo_environ(optimize_level=2) # level=2 seems best on memory, perf
+from yolo_attnopt.attention_optimization import setup_optimized_yolo_environ
+setup_optimized_yolo_environ(optimize_level=2) # level=2 seems best on memory, performance
 
 ## Start using YOLO ...
 
